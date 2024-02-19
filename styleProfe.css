@@ -1,0 +1,29 @@
+.titulo_texto {
+    text-align: center;
+    background: rgb(33, 33, 99);
+    border-radius: 20px;
+    color: white;
+    width: 40%;
+    /* height: 83px; */
+    padding: 52px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
