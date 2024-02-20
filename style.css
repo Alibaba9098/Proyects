@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 0;
-    background-color: #F6AD2A;
+    /*background-color: #F6AD2A;*/
+    background-image: url('https://www.holyfamily.edu/sites/default/files/2022-06/8262_UkraineESL_hero.jpg');
     width: 960px;
     margin: auto;
     height: auto;
@@ -14,7 +15,7 @@ body {
     height: 550px;
     display: block;
     clear: both;
-    transform:translateY(15%)
+    transform: translateY(15%)
 }
 
 .titulo_text {
