@@ -1,0 +1,34 @@
+
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #003690;
+      color:black;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .card {
+      border: 1px solid #2c71e7;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color:#F6AD2A;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .titulo{
+        color: #F6AD2A;
+        
+    }
+    h1{
+        text-align: center
+    }
+  
