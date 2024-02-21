@@ -28,7 +28,7 @@ body {
 
 
 .enlaces a {
-    height: 50px;
+    height: 25px;
     width: 200px;
     margin: 15px 0;
     -webkit-transition: all 1s ease;
@@ -50,6 +50,7 @@ a {
 }
 
 .adopcionbotton {
+    padding-inline-end: 10px;
     font-size: 25px;
     display: flex;
     justify-content: space-evenly;
@@ -82,48 +83,77 @@ a {
 }
 
 .adoptar {
+    background-color: #0C66AA;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
-    border-radius: 60%;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.tiendita,
+.donaciones {
+    border-radius: 30px;
+    padding: 50px;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .tiendita {
     background-image: url('https://th.bing.com/th/id/R.2a7cf50e5100233c6adfe0a5a1b00eba?rik=raSMRclJl8dFfw&pid=ImgRaw&r=0&sres=1&sresct=1');
     background-color: #ffffff;
-    border-radius: 10%;
-    padding: 50px;
-    color: #000000;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 20px;
-    text-align: center;
     height: 100px;
-    width: 200px;
+    width: 500px;
 }
 
 .donaciones {
     background-image: url('https://th.bing.com/th/id/OIP.A4BY8qz9lhL7oKLNYw_i8QHaE0?w=244&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
     background-color: #ffffff;
-    border-radius: 10%;
-    padding: 50px;
-    color: #000000;
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: 20px;
-    text-align: center;
     height: 100px;
-    width: 200px;
+    width: 500px;
 }
 
 .adoptar a {
+    /*height: 100px;
+    width: 250px;*/
+    margin: 30px 0;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
 
-.donaciones a:hover {
-    margin-top: -2px;
+.adoptar a:hover {
+    /*height: 100px;
+    width: 300px;*/
+    margin-top: 50px;
+}
+
+.final {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C66AA;
+    width: 90%;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.politicas,
+.nosotros,
+.regis {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 28%;
 }
 
 .footer {
