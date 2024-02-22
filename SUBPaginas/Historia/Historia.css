@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    background-color: #0C66AA;
+    color: #F6AD2A;
+}
+body {
+    background-color: #f6ad2a;
+}
+
+.container {
+    text-align: center;
+    background-color: #0C66AA;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.panel {
+    background-color: #f6ad2a;
+    padding: 0px;
+    border-radius: 0px;
+}
+.blue-rectangle {
+    width: 100%;
+    height: 100px;
+    background-color:#F6AD2A;
+    color: #0C66AA;
+    padding-top: 30px;
+    border-radius: 30px;
+
+}
+
+.texto {
+    text-align: center;
+    background-color: #F6AD2A;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 30px;
+}
