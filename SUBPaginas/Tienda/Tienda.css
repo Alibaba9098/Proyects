@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F6AD2A;
+}
+
+.container {
+    background-color: #0C66AA;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.title {
+    background-color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 141px;
+}
+
+
+
+.outfits,
+.comida,
+.juguetes,
+.accesorios {
+    background-color: #F6AD2A;
+    border-radius: 30px;
+    text-align: center;
+    padding: auto;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-left: 141px;
+    width: 80%;
+
+}
+
