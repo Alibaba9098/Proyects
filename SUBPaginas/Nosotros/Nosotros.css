@@ -1,0 +1,19 @@
+body {
+    background-color: #0C66AA;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #F6AD2A;
+    background-color: #0C66AA;
+}
+
+.texto {
+    text-align: center;
+    font-size: 50px;
+    background-color: #F6AD2A;
+    border-radius: 30px;
+    color: #0210ca;
+    padding: 4%;
+}
