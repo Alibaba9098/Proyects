@@ -10,7 +10,7 @@
 
 <body>
     <h2>Formulario para dar en adopción</h2>
-    <div class="contenedor">
+    <div class="parte_1 ">
         <button onclick="mostrarFormulario()">Abrir formulario</button>
         <div id="formulario" style="display: none;">
             <form action="procesar_adopcion.php" method="POST">
@@ -29,14 +29,14 @@
                 <label for="razon">Motivo por el que quieres dar en adopción:</label><br>
                 <textarea id="razon" name="razon" rows="4" cols="50" required></textarea><br><br>
 
-                <label for="experiencia">¿Que daras en adopcion perro o gato?</label><br>
+
+                
+                <label for="experiencia">¿Que daras en adopcion, perro o gato?</label><br>
                 <input type="radio" id="perro" name="mascotas" value="perro" required>
                 <label for="si">Perro</label>
                 <input type="radio" id="gato" name="mascotas" value="gato">
                 <label for="no">Gato</label><br><br>
 
-
-                
                 <label for="experiencia">¿Tienes mas mascotas?</label><br>
                 <input type="radio" id="si" name="mascotas" value="si" required>
                 <label for="si">Sí</label>
