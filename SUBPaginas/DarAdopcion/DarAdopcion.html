@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para dar en Adopción</title>
+    <link rel="stylesheet" href="DarAdopcion.css">
+</head>
+
+<body>
+    <h2>Formulario para dar en adopción</h2>
+    <div class="parte_1 ">
+        <button onclick="mostrarFormulario()">Abrir formulario</button>
+        <div id="formulario" style="display: none;">
+            <form action="procesar_adopcion.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion"><br><br>
+
+                <label for="razon">Motivo por el que quieres dar en adopción:</label><br>
+                <textarea id="razon" name="razon" rows="4" cols="50" required></textarea><br><br>
+
+
+                
+                <label for="experiencia">¿Que daras en adopcion, perro o gato?</label><br>
+                <input type="radio" id="perro" name="mascotas" value="perro" required>
+                <label for="si">Perro</label>
+                <input type="radio" id="gato" name="mascotas" value="gato">
+                <label for="no">Gato</label><br><br>
+
+                <label for="experiencia">¿Tienes mas mascotas?</label><br>
+                <input type="radio" id="si" name="mascotas" value="si" required>
+                <label for="si">Sí</label>
+                <input type="radio" id="no" name="mascotas" value="no">
+                <label for="no">No</label><br><br>
+
+                <label for="edad">Edad del perro/gato:</label>
+                <select id="edad" name="edad">
+                    <option value="cachorro">Cachorro</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="mayor">Perro mayor</option>
+                    <option value="indiferente">La que sea</option>
+                </select><br><br>
+
+                <label for="tamano">Tamaño del perro/gato:</label>
+                <select id="tamano" name="tamano">
+                    <option value="pequeno">Pequeño</option>
+                    <option value="mediano">Mediano</option>
+                    <option value="grande">Grande</option>
+                </select><br><br>
+
+                <label for="actividad">Nivel de actividad:</label>
+                <select id="actividad" name="actividad">
+                    <option value="baja">Baja</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+                </select><br><br>
+
+                <label for="compromiso">Compromiso de ir a revisar el cuidado:</label><br>
+                <input type="checkbox" id="compromiso" name="compromiso" required>
+                <label for="compromiso">Estoy comprometido en ir a revisar cada semana las condiciones del perro o gato</label><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function mostrarFormulario() {
+            document.getElementById("formulario").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

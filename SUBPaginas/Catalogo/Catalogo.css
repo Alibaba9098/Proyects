@@ -14,19 +14,27 @@
     }
     .card {
       border: 1px solid #2c71e7;
-      border-radius: 5px;
+      border-radius: 30px;
       padding: 20px;
       margin-bottom: 20px;
       background-color:#F6AD2A;
     }
+
+    .button {
+      background-color:#ffffff;
+    }
+
     .card img {
       max-width: 100%;
       border-radius: 5px;
       margin-bottom: 10px;
     }
     .titulo{
-        color: #F6AD2A;
-        
+        color:black;
+        border: 1px solid #2c71e7;
+        border-radius: 30px;
+        padding: 5px;
+        background-color:#F6AD2A;
     }
     h1{
         text-align: center

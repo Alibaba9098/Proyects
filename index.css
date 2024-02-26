@@ -21,7 +21,8 @@ body {
 }
 
 .enlaces {
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: bolder;
     display: flex;
     justify-content: space-around;
 }
@@ -139,10 +140,12 @@ a {
     justify-content: space-around;
     background-color: #0C66AA;
     width: 90%;
+    height: 90px;
     border-radius: 30px;
     padding: 10px;
     margin: 0 auto;
     margin-top: 20px;
+    vertical-align: text-top;
 }
 
 .politicas,
@@ -151,12 +154,17 @@ a {
     background-color: #ffffff;
     color: #000000;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     width: 28%;
+    height: 80px;
+    vertical-align: text-top;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
+    margin-bottom: -15px;
+    text-align: center;
+    margin-left: 35%;
 }
