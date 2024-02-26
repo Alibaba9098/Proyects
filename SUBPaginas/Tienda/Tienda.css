@@ -4,7 +4,7 @@ body {
     background-color: #F6AD2A;
 }
 
-.container {
+.scroll {
     background-color: #0C66AA;
     border-radius: 30px;
     padding: 30px;
@@ -21,7 +21,29 @@ body {
     margin-left: 141px;
 }
 
+div.scrollacces {
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+}
 
+div.scrollacces a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollacces a:hover {
+    background-color: #777;
+
+}
+
+.scrollacces div {
+    display: inline-block;
+
+}
 
 .outfits,
 .comida,
@@ -39,4 +61,3 @@ body {
     width: 80%;
 
 }
-
