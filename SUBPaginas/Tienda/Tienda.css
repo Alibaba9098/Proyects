@@ -22,9 +22,10 @@ body {
 }
 
 div.scrollacces {
-    background-color: #ffffff;
+    background-color: #ffffff82;
     overflow: auto;
     white-space: nowrap;
+    border-radius: 30px;
 }
 
 div.scrollacces a {
@@ -33,6 +34,10 @@ div.scrollacces a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+}
+
+.img {
+    border-radius: 30px;
 }
 
 div.scrollacces a:hover {
