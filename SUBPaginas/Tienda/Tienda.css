@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #0C66AA;
+    /*     background-image: url(/SUBPaginas/Imagen/fondo.jpg);
+ */
 }
 
 .titulo_text {
@@ -53,6 +55,7 @@ a {
     background-color: #F6AD2A;
     border-radius: 30px;
     padding: 30px;
+    text-align: center;
 }
 
 .title {
@@ -70,14 +73,21 @@ div.scrolloutfit {
     background-color: #ffffff82;
     overflow: auto;
     white-space: nowrap;
-    border-radius: 30px;    
+    border-radius: 30px;
 }
 
 div.scrollacces {
     background-color: #ffffff82;
     overflow: auto;
     white-space: nowrap;
-    border-radius: 30px;    
+    border-radius: 30px;
+}
+
+div.scrollcomida {
+    background-color: #ffffff82;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 30px;
 }
 
 .scrolloutfit::-webkit-scrollbar {
@@ -88,26 +98,38 @@ div.scrollacces {
     height: 15px;
 }
 
+.scrollcomida::-webkit-scrollbar {
+    height: 15px;
+}
+
 .scrolloutfit::-webkit-scrollbar-track {
-    background: #fed79f;
-    border-radius: 30px;
+    background: #fcae3c;
 }
 
 .scrollacces::-webkit-scrollbar-track {
-    background: #fed79f;
-    border-radius: 30px;
+    background: #fcae3c;
+}
+
+.scrollcomida::-webkit-scrollbar-track {
+    background: #fcae3c;
 }
 
 .scrolloutfit::-webkit-scrollbar-thumb {
-    background-color: #fed79f;
+    background-color: #898989;
     border-radius: 10px;
-    border: 5px solid #0C66AA;
-  }
+    border: 5px solid #fcae3c;
+}
 
 .scrollacces::-webkit-scrollbar-thumb {
-    background-color: #fed79f;
+    background-color: #898989;
     border-radius: 10px;
-    border: 5px solid #0C66AA;
+    border: 5px solid #fcae3c;
+}
+
+.scrollcomida::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 5px solid #fcae3c;
   }
 
 div.scrolloutfit a {
@@ -126,17 +148,30 @@ div.scrollacces a {
     text-decoration: none;
 }
 
+div.scrollcomida a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
 .img {
     border-radius: 30px;
 }
 
 div.scrolloutfit a:hover {
-    background-color: #0094f3;
+    background-color: #d7b686;
 
 }
 
 div.scrollacces a:hover {
-    background-color: #0094f3;
+    background-color: #d7b686;
+
+}
+
+div.scrollcomida a:hover {
+    background-color: #d7b686;
 
 }
 
@@ -145,6 +180,10 @@ div.scrollacces a:hover {
 }
 
 .scrollacces div {
+    display: inline-block;
+}
+
+.scrollcomida div {
     display: inline-block;
 }
 
