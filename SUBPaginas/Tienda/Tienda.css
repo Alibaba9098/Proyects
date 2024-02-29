@@ -1,13 +1,61 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #F6AD2A;
+    background-color: #0C66AA;
+    /*     background-image: url(/SUBPaginas/Imagen/fondo.jpg);
+ */
+}
+
+.titulo_text {
+    text-align: center;
+    background: #0C66AA;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 45px;
+    width: 60%;
+    padding: 30px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces {
+    font-size: 23px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.enlaces a {
+    height: 25px;
+    width: 200px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.enlaces a:hover {
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    margin-top: -2px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .scroll {
-    background-color: #0C66AA;
+    background-color: #F6AD2A;
     border-radius: 30px;
     padding: 30px;
+    text-align: center;
 }
 
 .title {
@@ -21,6 +69,13 @@ body {
     margin-left: 141px;
 }
 
+div.scrolloutfit {
+    background-color: #ffffff82;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 30px;
+}
+
 div.scrollacces {
     background-color: #ffffff82;
     overflow: auto;
@@ -28,7 +83,72 @@ div.scrollacces {
     border-radius: 30px;
 }
 
+div.scrollcomida {
+    background-color: #ffffff82;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 30px;
+}
+
+.scrolloutfit::-webkit-scrollbar {
+    height: 15px;
+}
+
+.scrollacces::-webkit-scrollbar {
+    height: 15px;
+}
+
+.scrollcomida::-webkit-scrollbar {
+    height: 15px;
+}
+
+.scrolloutfit::-webkit-scrollbar-track {
+    background: #fcae3c;
+}
+
+.scrollacces::-webkit-scrollbar-track {
+    background: #fcae3c;
+}
+
+.scrollcomida::-webkit-scrollbar-track {
+    background: #fcae3c;
+}
+
+.scrolloutfit::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 5px solid #fcae3c;
+}
+
+.scrollacces::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 5px solid #fcae3c;
+}
+
+.scrollcomida::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 5px solid #fcae3c;
+  }
+
+div.scrolloutfit a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
 div.scrollacces a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollcomida a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -40,21 +160,39 @@ div.scrollacces a {
     border-radius: 30px;
 }
 
-div.scrollacces a:hover {
-    background-color: #777;
+div.scrolloutfit a:hover {
+    background-color: #d7b686;
 
+}
+
+div.scrollacces a:hover {
+    background-color: #d7b686;
+
+}
+
+div.scrollcomida a:hover {
+    background-color: #d7b686;
+
+}
+
+.scrolloutfit div {
+    display: inline-block;
 }
 
 .scrollacces div {
     display: inline-block;
+}
 
+.scrollcomida div {
+    display: inline-block;
 }
 
 .outfits,
 .comida,
 .juguetes,
 .accesorios {
-    background-color: #F6AD2A;
+    background-color: #0C66AA;
+    color: #ffffff;
     border-radius: 30px;
     text-align: center;
     padding: auto;
