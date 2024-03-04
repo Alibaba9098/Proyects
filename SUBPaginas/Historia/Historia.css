@@ -1,39 +1,31 @@
+body {
+    background-image: url("../Imagen/FondoNosotros.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 h1 {
     text-align: center;
     font-size: 75px;
-    background-color: #0C66AA;
     color: #F6AD2A;
 }
-body {
-    background-color: #0C66AA;
-}
 
-.container {
-    text-align: center;
-    background-color: #0C66AA;
-    border-radius: 30px;
-    padding: 25px;
-}
-
-.panel {
-    background-color: #f6ad2a;
-    padding: 10px;
-    border-radius: 0px;
-}
 .blue-rectangle {
     width: 100%;
     height: 100px;
-    background-color:#F6AD2A;
-    color: #0C66AA;
-    padding-top: 10px;
+    color: #F6AD2A;
     border-radius: 30px;
 
 }
 
 .texto {
     text-align: center;
-    background-color: #F6AD2A;
+    font-size: 20px;
     border-radius: 30px;
     color: #000000;
     padding: 30px;
+}
+
+.perros {
+    width: 70px;
+    height: 70px;
 }
