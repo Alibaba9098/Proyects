@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #0C66AA;
+    /*     background-image: url(/SUBPaginas/Imagen/fondo.jpg);
+ */
 }
 
 .titulo_text {
@@ -9,18 +11,19 @@ body {
     background: #0C66AA;
     border-radius: 20px;
     color: #ffffff;
-    font-size: 45px;
-    width: 60%;
-    padding: 30px;
+    font-size: 35px;
+    width: 80%;
+    padding: 20px;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
+    margin-top: -30px;
 }
 
 .enlaces {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
@@ -53,31 +56,46 @@ a {
     background-color: #F6AD2A;
     border-radius: 30px;
     padding: 30px;
+    text-align: center;
 }
 
 .title {
     background-color: #ffffff;
     border-radius: 30px;
     text-align: center;
-    font-size: 50px;
-    width: 80%;
+    font-size: 40px;
+    width: 70%;
     display: flex;
     justify-content: center;
-    margin-left: 141px;
+    margin-left: 200px;
 }
 
 div.scrolloutfit {
     background-color: #ffffff82;
     overflow: auto;
     white-space: nowrap;
-    border-radius: 30px;    
+    border-radius: 30px;
 }
 
 div.scrollacces {
     background-color: #ffffff82;
     overflow: auto;
     white-space: nowrap;
-    border-radius: 30px;    
+    border-radius: 30px;
+}
+
+div.scrollcomida {
+    background-color: #ffffff82;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 30px;
+}
+
+div.scrolljuegos {
+    background-color: #ffffff82;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 30px;
 }
 
 .scrolloutfit::-webkit-scrollbar {
@@ -88,27 +106,53 @@ div.scrollacces {
     height: 15px;
 }
 
+.scrollcomida::-webkit-scrollbar {
+    height: 15px;
+}
+
+.scrolljuegos::-webkit-scrollbar {
+    height: 15px;
+}
+
 .scrolloutfit::-webkit-scrollbar-track {
-    background: #fed79f;
-    border-radius: 30px;
+    background: #fcae3c;
 }
 
 .scrollacces::-webkit-scrollbar-track {
-    background: #fed79f;
-    border-radius: 30px;
+    background: #fcae3c;
+}
+
+.scrollcomida::-webkit-scrollbar-track {
+    background: #fcae3c;
+}
+
+.scrolljuegos::-webkit-scrollbar-track {
+    background: #fcae3c;
 }
 
 .scrolloutfit::-webkit-scrollbar-thumb {
-    background-color: #fed79f;
+    background-color: #898989;
     border-radius: 10px;
-    border: 5px solid #0C66AA;
-  }
+    border: 5px solid #fcae3c;
+}
 
 .scrollacces::-webkit-scrollbar-thumb {
-    background-color: #fed79f;
+    background-color: #898989;
     border-radius: 10px;
-    border: 5px solid #0C66AA;
-  }
+    border: 5px solid #fcae3c;
+}
+
+.scrollcomida::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 5px solid #fcae3c;
+}
+
+.scrolljuegos::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 20px solid #fcae3c;
+}
 
 div.scrolloutfit a {
     display: inline-block;
@@ -126,17 +170,43 @@ div.scrollacces a {
     text-decoration: none;
 }
 
+div.scrollcomida a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrolljuegos a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
 .img {
     border-radius: 30px;
 }
 
 div.scrolloutfit a:hover {
-    background-color: #0094f3;
+    background-color: #d7b686;
 
 }
 
 div.scrollacces a:hover {
-    background-color: #0094f3;
+    background-color: #d7b686;
+
+}
+
+div.scrollcomida a:hover {
+    background-color: #d7b686;
+
+}
+
+div.scrolljuegos a:hover {
+    background-color: #d7b686;
 
 }
 
@@ -146,6 +216,22 @@ div.scrollacces a:hover {
 
 .scrollacces div {
     display: inline-block;
+}
+
+.scrollcomida div {
+    display: inline-block;
+}
+
+.scrolljuegos div {
+    display: inline-block;
+}
+
+.scrolljuegos,
+.scrollcomida,
+.scrolloutfit,
+.scrollacces {
+    max-width: 1000px;
+    margin-left: 14%;
 }
 
 .outfits,
@@ -161,7 +247,7 @@ div.scrollacces a:hover {
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    margin-left: 141px;
-    width: 80%;
+    margin-left: 25%;
+    width: 50%;
 
 }
