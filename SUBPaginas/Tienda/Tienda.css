@@ -11,18 +11,19 @@ body {
     background: #0C66AA;
     border-radius: 20px;
     color: #ffffff;
-    font-size: 45px;
-    width: 60%;
-    padding: 30px;
+    font-size: 35px;
+    width: 80%;
+    padding: 20px;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
+    margin-top: -30px;
 }
 
 .enlaces {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
@@ -62,11 +63,11 @@ a {
     background-color: #ffffff;
     border-radius: 30px;
     text-align: center;
-    font-size: 50px;
-    width: 80%;
+    font-size: 40px;
+    width: 70%;
     display: flex;
     justify-content: center;
-    margin-left: 141px;
+    margin-left: 200px;
 }
 
 div.scrolloutfit {
@@ -90,6 +91,13 @@ div.scrollcomida {
     border-radius: 30px;
 }
 
+div.scrolljuegos {
+    background-color: #ffffff82;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 30px;
+}
+
 .scrolloutfit::-webkit-scrollbar {
     height: 15px;
 }
@@ -102,6 +110,10 @@ div.scrollcomida {
     height: 15px;
 }
 
+.scrolljuegos::-webkit-scrollbar {
+    height: 15px;
+}
+
 .scrolloutfit::-webkit-scrollbar-track {
     background: #fcae3c;
 }
@@ -111,6 +123,10 @@ div.scrollcomida {
 }
 
 .scrollcomida::-webkit-scrollbar-track {
+    background: #fcae3c;
+}
+
+.scrolljuegos::-webkit-scrollbar-track {
     background: #fcae3c;
 }
 
@@ -130,7 +146,13 @@ div.scrollcomida {
     background-color: #898989;
     border-radius: 10px;
     border: 5px solid #fcae3c;
-  }
+}
+
+.scrolljuegos::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 10px;
+    border: 20px solid #fcae3c;
+}
 
 div.scrolloutfit a {
     display: inline-block;
@@ -149,6 +171,14 @@ div.scrollacces a {
 }
 
 div.scrollcomida a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrolljuegos a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -175,6 +205,11 @@ div.scrollcomida a:hover {
 
 }
 
+div.scrolljuegos a:hover {
+    background-color: #d7b686;
+
+}
+
 .scrolloutfit div {
     display: inline-block;
 }
@@ -185,6 +220,18 @@ div.scrollcomida a:hover {
 
 .scrollcomida div {
     display: inline-block;
+}
+
+.scrolljuegos div {
+    display: inline-block;
+}
+
+.scrolljuegos,
+.scrollcomida,
+.scrolloutfit,
+.scrollacces {
+    max-width: 1000px;
+    margin-left: 14%;
 }
 
 .outfits,
@@ -200,7 +247,7 @@ div.scrollcomida a:hover {
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    margin-left: 141px;
-    width: 80%;
+    margin-left: 25%;
+    width: 50%;
 
 }
