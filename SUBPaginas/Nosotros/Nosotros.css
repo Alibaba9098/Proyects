@@ -1,8 +1,7 @@
 body {
     background-image: url("../Imagen/FondoNosotros.png");
     background-repeat: no-repeat;
-    background-size: 100%
-    ;
+    background-size: 100%;
 }
 
 h1 {
@@ -20,26 +19,31 @@ h1 {
     color: #0210ca;
     padding: 4%;
 }
+
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 .facebook {
     display: flex;
     justify-content: center;
     height: 50px;
 }
+
 .instagram {
     display: flex;
     height: 50px;
     justify-content: center;
-  }
+}
+
 .youtube {
     display: flex;
     height: 50px;
     justify-content: center;
 }
+
 .perro {
     width: 60px;
     height: 60px;
