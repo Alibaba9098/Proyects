@@ -9,7 +9,7 @@ body {
     background-color: #F6AD2A;
     border-radius: 30px;
     padding: 25px;
-    height: 770px;
+    height: 825px;
 }
 
 .titulo_text {
@@ -78,6 +78,13 @@ a {
     margin-left: 120px;
     border-radius: 30px;
     width: 80%;
-    height: 58%;
+    height: 54%;
     padding: 20px;
+}
+
+.redes {
+    text-align: center;
+    color:#0210ca;
+    font-size: 20px;
+    height: 50px;
 }
