@@ -18,6 +18,7 @@
       padding: 20px;
       margin-bottom: 20px;
       background-color:#F6AD2A;
+      display: flex;
     }
 
     .button {
@@ -28,15 +29,21 @@
       max-width: 100%;
       border-radius: 5px;
       margin-bottom: 10px;
+      width:300px;
+      height:250px;
+      
     }
     .titulo{
         color:black;
-        border: 1px solid #2c71e7;
+        border: 1px solid#2c71e7;
         border-radius: 30px;
         padding: 5px;
         background-color:#F6AD2A;
     }
     h1{
         text-align: center
+    }
+    h2{
+      
     }
   
