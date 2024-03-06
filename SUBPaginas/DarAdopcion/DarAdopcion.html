@@ -15,7 +15,7 @@
         <h2>Formulario para dar en adopción</h2>
         <form action="procesar_adopcion.php" method="POST">
             <div class="primera_parte">
-                <label for="nombre">Nombre del Perro:</label>
+                <label for="nombre">Nombre de la Mascota:</label>
                 <input type="text" id="nombre" name="nombre" required><br><br>
 
                 <label for="correo">Correo Electrónico:</label>
@@ -34,9 +34,9 @@
             <div class="segunda_seccion">
                 <label for="experiencia">¿Que daras en adopcion, perro o gato?</label><br>
                 <input type="radio" id="si" name="experiencia" value="si" required>
-                <label for="si">Sí</label>
+                <label for="si">Perro</label>
                 <input type="radio" id="no" name="experiencia" value="no">
-                <label for="no">No</label><br><br>
+                <label for="no">Gato</label><br><br>
 
                 <label for="vivienda">¿Tienes mas mascotas?:</label><br>
                 <input type="radio" id="si" name="si" value="si" required>
@@ -46,9 +46,9 @@
 
                 <label for="edad">Edad del perro/gato:</label>
                 <select id="edad" name="edad">
-                    <option value="cachorro">Cachorro</option>
-                    <option value="adulto">Adulto</option>
-                    <option value="mayor">Perro mayor</option>
+                    <option value="meses">5-10 Meses</option>
+                    <option value="1anos">1-2 Años</option>
+                    <option value="3anos">+3 Años</option>
                 </select><br><br>
 
                 <label for="tamano">Tamaño del perro/gato:</label>
