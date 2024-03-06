@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f6ad2a;
 }
 
-.titulo_text {
+.titulo_text_poli {
     text-align: center;
     background: #0C66AA;
-    border-radius: 20px;
+    border-radius: 200px;
     color: #ffffff;
     font-size: 45px;
     padding: 30px;
@@ -43,13 +44,50 @@ body {
     margin-bottom: 10px;
 }
 
-.footer {
-    background-color: #0C66AA;
-    color: #ffffff;
+.titulo_text {
     text-align: center;
+    background: #0C66AA;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 35px;
+    width: 80%;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
 }
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+
+}
+
+.enlaces {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.enlaces a {
+    height: 25px;
+    width: 200px;
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.enlaces a:hover {
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    margin-top: -2px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
