@@ -19,6 +19,11 @@ body {
   margin-bottom: 20px;
   background-color: #F6AD2A;
   display: flex;
+  padding: 30px;
+}
+
+.cont {
+  padding: 10px;
 }
 
 .button {
