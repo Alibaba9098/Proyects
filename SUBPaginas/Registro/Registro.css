@@ -16,6 +16,31 @@ body {
   background: #F6AD2A;
 }
 
+.titulo_text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+  width: 80%;
+  margin-top: 3%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  background: #0C66AA;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+  height: 125px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .container {
   max-width: 700px;
   width: 100%;
