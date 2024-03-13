@@ -7,7 +7,6 @@ body {
 
 .titulo_text {
     text-align: center;
-    background: #0C66AA;
     border-radius: 20px;
     color: #ffffff;
     font-size: 45px;
@@ -18,6 +17,12 @@ body {
 .titulo {
     display: flex;
     justify-content: center;
+    background-color: #0C66AA;
+    border-radius: 30px;
+    width: 80%;
+    height: 180px;
+    margin-left: 10%;
+    
 }
 
 .enlaces {
@@ -25,6 +30,7 @@ body {
     font-weight: bolder;
     display: flex;
     justify-content: space-around;
+    margin-top: 10px
 }
 
 

@@ -9,10 +9,21 @@
 </head>
 
 <body>
-    
+
     <div class="contenedor ">
-        
-        <h2>Formulario para dar en adopción</h2>
+
+        <div class="titulo">
+            <h1 class="titulo_text"><a href="/index.html" style="color: white;">Mano A Pata</a></h1>
+            <a href="/index.html"><img src="/SUBPaginas/Imagen/logo.png" width="120px" height="120px" style="margin-top: -5px;"></a>
+        </div>
+        <div class="enlaces">
+            <a href="/SUBPaginas/Historia1/Historia.html">Nuestra Historia</a>
+            <a href="/SUBPaginas/PorqueAdoptar/PorqueAdoptar.html">¿Porque adoptar?</a>
+            <a href="/SUBPaginas/TipsCuidados/TipsCuidados.html">Tips y cuidados</a>
+            <a href="/SUBPaginas/Catalogo/Catalogo.html">Quiero Adoptar</a>
+        </div>
+
+        <h1>Formulario para dar en adopción</h1>
         <form action="procesar_adopcion.php" method="POST">
             <div class="primera_parte">
                 <label for="nombre">Nombre de la Mascota:</label>
@@ -69,7 +80,8 @@
 
                 <label for="compromiso">Compromiso de ir a revisar el cuidado:</label><br>
                 <input type="checkbox" id="compromiso" name="compromiso" required>
-                <label for="compromiso">Estoy comprometido en ir a revisar cada semana las condiciones del perro o gato</label><br><br>
+                <label for="compromiso">Estoy comprometido en ir a revisar cada semana las condiciones del perro o
+                    gato</label><br><br>
 
                 <input type="submit" value="Enviar">
             </div>

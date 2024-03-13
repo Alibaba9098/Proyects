@@ -10,10 +10,22 @@
 
 <body>
     <div class="contenedor">
-        <h2>Formulario de Adopción de Perros</h2>
+
+        <div class="titulo">
+            <h1 class="titulo_text"><a href="/index.html" style="color: white;">Mano A Pata</a></h1>
+            <a href="/index.html"><img src="/SUBPaginas/Imagen/logo.png" width="120px" height="120px" style="margin-top: -5px;"></a>
+        </div>
+        <div class="enlaces">
+            <a href="/SUBPaginas/Historia1/Historia.html">Nuestra Historia</a>
+            <a href="/SUBPaginas/PorqueAdoptar/PorqueAdoptar.html">¿Porque adoptar?</a>
+            <a href="/SUBPaginas/TipsCuidados/TipsCuidados.html">Tips y cuidados</a>
+            <a href="/SUBPaginas/DarAdopcion/DarAdopcion.html">Dar en Adopcion</a>
+        </div>
+        
+        <h1>Formulario de Adopción de Perros</h1>
 
 
-        <form action="procesar_adopcion.php" method="POST">
+        <form action="" method="POST">
             <div class="primera_parte">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required><br><br>
@@ -32,46 +44,40 @@
             </div>
 
             <div class="segunda_seccion">
-                <label for="experiencia">Experiencia previa con mascotas:</label><br>
+                <label for="experiencia">Experiencia previa con mascotas:</label><br><br>
                 <input type="radio" id="si" name="experiencia" value="si" required>
                 <label for="si">Sí</label>
                 <input type="radio" id="no" name="experiencia" value="no">
                 <label for="no">No</label><br><br>
 
-                <label for="vivienda">Tipo de vivienda:</label><br>
+                <label for="vivienda">Tipo de vivienda:</label><br><br>
                 <input type="radio" id="apartamento" name="vivienda" value="apartamento" required>
                 <label for="apartamento">Apartamento</label>
                 <input type="radio" id="casa" name="vivienda" value="casa">
                 <label for="casa">Casa con jardín</label><br><br>
 
-                <label for="edad">Preferencia de edad del perro:</label>
-                <select id="edad" name="edad">
-                    <option value="cachorro">Cachorro</option>
-                    <option value="adulto">Adulto</option>
-                    <option value="mayor">Perro mayor</option>
-                    <option value="indiferente">La que sea</option>
-                </select><br><br>
+                <label for="mascotas">Tienes mascotas actualmente:</label><br><br>
+                <input type="radio" id="si" name="mascotas" value="si" required>
+                <label for="si">Sí</label>
+                <input type="radio" id="no" name="mascotas" value="no">
+                <label for="no">No</label><br><br>
 
-                <label for="tamano">Preferencia de tamaño del perro:</label>
+                <label for="personas">¿Cuantas personas viven en tu casa?</label><br><br>
                 <select id="tamano" name="tamano">
-                    <option value="pequeno">Pequeño</option>
-                    <option value="mediano">Mediano</option>
-                    <option value="grande">Grande</option>
-                    <option value="indiferente">Indiferente</option>
-                </select><br><br>
-
-                <label for="actividad">Nivel de actividad:</label>
-                <select id="actividad" name="actividad">
-                    <option value="baja">Baja</option>
-                    <option value="media">Media</option>
-                    <option value="alta">Alta</option>
+                    <option value="1-2">1-2 Personas</option>
+                    <option value="3-4">3-4 Personas</option>
+                    <option value="+4">Mas de 4 personas</option>
                 </select><br><br>
 
                 <label for="compromiso">Compromiso de cuidado:</label><br>
                 <input type="checkbox" id="compromiso" name="compromiso" required>
-                <label for="compromiso">Estoy comprometido a cuidar y dar amor al perro</label><br><br>
+                <label for="compromiso">Estoy comprometido a cuidar y dar amor a la mascota</label><br><br>
 
-                <input type="submit" value="Enviar">
+                <a class="" href="/index.html">
+                    <div class="button">
+                        <p>Enviar</p>
+                    </div>
+                </a>
             </div>
 
         </form>
